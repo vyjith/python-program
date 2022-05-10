@@ -78,3 +78,21 @@ else:
 ## character check
 
 -------------------------------------------------- 
+
+```py
+string = input("Enter a string : ")
+
+con = string.lower()
+
+first = con[0]
+
+last = con [-1]
+
+if first == last:
+
+  print("Ok")
+
+else:
+
+  print("No")
+  ```
