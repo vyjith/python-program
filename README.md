@@ -3,6 +3,7 @@ python-program
 
 
 ## Odd number checking here
+-------------------------------------------------- 
 
 ```py
 number = input("Enter a number here: ")
@@ -18,6 +19,7 @@ else:
 ```
 
 ## Check the enterd value start with vowel
+-------------------------------------------------- 
 
 ```py
 value = input("Enter the word here : ")
@@ -40,6 +42,7 @@ else:
 ```
 
 ## Check the enterd value start with vowel --Method 2
+-------------------------------------------------- 
 
 ```py
 value = input("Enter a character: ")
@@ -53,3 +56,25 @@ if ( "a" == first or "e" == first or "i" == first or "o" == first or "u" == firs
 else:
   print("No")
 ```
+
+## String and substring
+-------------------------------------------------- 
+
+```py
+string = input("Enter the string : ")
+
+substring = input("Enter the substring: ")
+
+if substring in string:
+  
+  print("Ok")
+
+else:
+
+  print("No")
+```
+
+
+## character check
+
+-------------------------------------------------- 
